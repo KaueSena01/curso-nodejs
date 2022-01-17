@@ -1,5 +1,5 @@
 # Curso de Node.js
-Revisando Node.js
 
-Quando comecei a estudar Node.js a alguns anos parti direto para o express, comecei a desenvolver aplicações utilizando bancos relacionais e não relacionais mais sem uma base "forte" no Node. Por isso, a algumas semanas adquiri o curso de Node.js do tutor Matheus Battisti para enfim, poder entender afundo o node, além disso, revisar várias funções e aprender os novos recursos dessa ferramenta incrível e que gosto muito.
+Realizei este curso com a intenção de revisar o node.js e suas ferramentas, pois sempre foi um recurso que sempre gostei de programar.
+Neste curso criei diversos projetos e revisei algumas ferramentas do node, como: express, handlebars, mongo, mysql, react e api-rests.
 
