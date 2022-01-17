@@ -1,0 +1,16 @@
+<h1>Home handlebars</h1>
+
+{{#if approved}}
+    <p>Parabéns seu cadastro foi aprovado!</p>
+{{else}}
+    <p>Seu cadastro necessita de aprovação para acesso total.</p>
+{{/if}}
+
+<p>Nome do usuário: {{user.name}} {{user.surname}}, idade: {{user.age}}</p>
+<p>{{palavra}}</p>
+
+{{#if auth}}
+    <p>
+        Você está autenticado, clique <a href="/dashboard">aqui</a> 
+    </p>
+{{/if}}
