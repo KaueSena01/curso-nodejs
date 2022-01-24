@@ -178,11 +178,6 @@ module.exports = class UserController{
 
         user.phone = phone
 
-        if(!password){
-            res.status(422).json({message: "O campo senha é obrigatório"})
-            return
-        }
-
         if(password != confirmpassword){
             res.status(422).json({message: "As senhas não conferem"})
             return
